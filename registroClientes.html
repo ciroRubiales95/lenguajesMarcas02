@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de Registro</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Formulario de registro</h1>
+        <form>
+            <div>
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div>
+                <label for="apellidos">Apellidos: </label>
+                <input type="text" id="apellidos" name="apellidos" required>
+            </div>
+            <div>
+                <label>Sexo:</label>
+                <input name="sexo" type="radio" value="masculino" id="masculino" required>
+                <label for="masculino">Masculino</label>
+                <input name="sexo" type="radio" value="femenino" id="femenino">
+                <label for="femenino">Femenino</label>
+                <input name="sexo" type="radio" value="otros" id="otros">
+                <label for="otros">Otros</label>
+            </div>
+            <div>
+                <label for="nacimiento">Fecha de nacimiento: </label>
+                <input type="date" id="nacimiento" name="nacimiento" required>
+            </div>
+            <div>
+                <label for="telefono">Teléfono: </label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+            <div>
+                <label>Provincia:</label>
+                <input name="prov" type="radio" value="Huelva" id="huelva" required>
+                <label for="huelva">Huelva</label>
+                <input name="prov" type="radio" value="Sevilla" id="sevilla">
+                <label for="sevilla">Sevilla</label>
+                <input name="prov" type="radio" value="Cádiz" id="cadiz">
+                <label for="cadiz">Cádiz</label>
+                <input name="prov" type="radio" value="Granada" id="granada">
+                <label for="granada">Granada</label>
+                <input name="prov" type="radio" value="Málaga" id="malaga">
+                <label for="malaga">Málaga</label>
+                <input name="prov" type="radio" value="Jaén" id="jaen">
+                <label for="jaen">Jaén</label>
+                <input name="prov" type="radio" value="Almería" id="almeria">
+                <label for="almeria">Almería</label>
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="usuario">Nombre de Usuario: </label>
+                <input type="text" id="usuario" name="usuario" required>
+            </div>
+            <div>
+                <label for="contrasena">Contraseña: </label>
+                <input type="password" id="contrasena" name="contrasena" required>
+            </div>
+            <div>
+                <label for="confirmar_contrasena">Confirmar contraseña: </label>
+                <input type="password" id="confirmar_contrasena" name="confirmar_contrasena" required>
+            </div>
+            <div>
+                <label for="condiciones">Acepta las condiciones de envío: </label>
+                <input type="checkbox" id="condiciones" name="condiciones" required>
+            </div>
+            <div>
+                <label for="foto">Foto de perfil: </label>
+                <input type="file" id="foto" name="foto">
+            </div>
+            <div>
+                <label for="comentarios">Comentarios: </label>
+                <textarea id="comentarios" name="comentarios" maxlength="200" rows="4" cols="40"></textarea>
+            </div>
+            <div>
+                <input type="reset" value="Borrar datos">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </body>
+</html>

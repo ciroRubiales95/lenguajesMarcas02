@@ -1,0 +1,32 @@
+* {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    background-color: beige;
+}
+
+div {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border: 1px solid beige;
+}
+
+form div {
+    display: flex;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 16px;
+    border-color: black;
+    gap: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+}
